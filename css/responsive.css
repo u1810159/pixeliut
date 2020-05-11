@@ -1,0 +1,37 @@
+/* ==================================================================
+|   |   |   |   |      Bootstrap 3 Medi Queries   |    |   |   |   |  
+** =================================================================*/
+
+/* Large Devices (Desktops  & Laptops) */
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+    #home-heading h1 {
+        color: white;
+    }
+
+}
+
+/* Large Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width:992px) and (max-width:1199px) {
+
+
+    #home-heading h1 {
+        color: red;
+    }
+}
+
+/* Large Devices (Desktops  & Laptops) */
+@media (min-width:768px) and (max-width:991px) {
+
+    #home-heading h1 {
+        color: yellow;
+    }
+}
+
+/* Extra Small Devices (Landscape Phones )*/
+@media (max-width: 767px) {
+
+    #home-heading h1 {
+        color: brown;
+    }
+}
